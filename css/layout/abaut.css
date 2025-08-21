@@ -1,0 +1,40 @@
+#abaut{
+    background-color: chartreuse;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.abaut-cards{
+    display: flex;
+    gap: 160px;
+}
+.abaut-cards__text{
+font-size: 35px;
+line-height: 40px;
+letter-spacing: 0%;
+ padding-top: 100px;
+    color: rgba(11, 19, 42, 1);
+}
+.abaut-cards__titel{
+font-weight: 400;
+font-size: 16px;
+color: rgba(79, 86, 101, 1);
+padding-top: 10px;
+}
+.abaut-card{
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    gap: 10px;
+    color: rgba(79, 86, 101, 1);
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+letter-spacing: 0%;
+
+}
+@media (max-width:1030px) {
+    .abaut-card-img{
+        display: none;
+    }
+    
+}
