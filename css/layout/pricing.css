@@ -1,0 +1,31 @@
+#pricing{
+    background-color: chartreuse;
+    padding-top: 60px;
+}
+.pricing--text{
+    text-align: center;
+font-size: 35px;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(11, 19, 42, 1);
+}
+.pricing--title{
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+color: rgba(79, 86, 101, 1);
+}
+.Pricing--cards{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.pricing-cardlar{
+    width: 300px;
+    background-color: rgb(118, 113, 113);
+    text-align: center;
+    padding-top: 70px;
+}
