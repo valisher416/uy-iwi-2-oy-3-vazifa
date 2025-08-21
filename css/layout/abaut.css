@@ -1,7 +1,8 @@
 #abaut{
-    background-color: chartreuse;
+    background-color: rgba(255, 255, 255, 1);
     padding-top: 70px;
     padding-bottom: 100px;
+    width: 100%;
 }
 .abaut-cards{
     display: flex;
@@ -32,9 +33,12 @@ line-height: 30px;
 letter-spacing: 0%;
 
 }
-@media (max-width:1030px) {
-    .abaut-card-img{
-        display: none;
+@media (max-width:1169px) {
+    .abaut-cards{
+        flex-wrap: wrap;
+    }
+    .abaut-cardd{
+        margin-top: -130px;
     }
     
 }

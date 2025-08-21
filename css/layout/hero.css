@@ -40,38 +40,14 @@ transition: 0.5s;
 }
 
 @media (max-width:1169px) {
-    .hero-cards img{
-        width: 550px;
-    }
-    
-}
-@media (max-width:1102px) {
-    .hero-cards img{
-        width: 450px;
-    }
-    
-}
-@media (max-width:1004px) {
-    .hero-cards img{
-        width: 350px;
-    }
-    
-}
-@media (max-width:903px) {
-    .hero-cards img{
-        display: none;
-    }
-    
-}
-@media (max-width:553px) {
     .hero-cards{
-       .hero-cards-text{
-        
-        font-size: px;
+        flex-wrap: wrap;
     }
-
+    
+}
+@media (max-width:1169px) {
+    .hero-cards img{
+        padding-top: 50px;
     }
-
-   
     
 }
