@@ -51,3 +51,10 @@ transition: 0.5s;
     }
     
 }
+
+@media (max-width:700px) {
+    .hero-cards img{
+        width: 490px;
+    }
+    
+}

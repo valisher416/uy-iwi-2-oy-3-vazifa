@@ -42,3 +42,8 @@ letter-spacing: 0%;
     }
     
 }
+@media (max-width:520px) {
+    .abaut-card-img{
+        width: 450px;
+    }
+}
