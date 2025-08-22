@@ -92,3 +92,14 @@ color: rgba(79, 86, 101, 1);
     }
    
 }
+
+@media (max-width:555px) {
+    #pricing{
+       
+        width: 555px;
+      margin: 0 auto;
+       
+    
+    }
+   
+}
