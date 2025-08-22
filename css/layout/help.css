@@ -1,0 +1,25 @@
+#help{
+    padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.help-card{
+    display: flex;
+    align-items: center;
+}
+@media (max-width:900px) {
+    .help-card {
+        padding-top: 20px;
+       flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+@media (max-width:800px) {
+    #help{
+        width: 591px;
+        margin: 0 auto;
+        
+    }
+}
+.help-card img{
+    width: 240px;
+}
